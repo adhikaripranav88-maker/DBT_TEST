@@ -37,16 +37,16 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   scd2_project_dbt_workshop:
-    example:
+      example:
           schema: example 
 
-    silver:
+      silver:
 
           schema: silver
 
           materialized: table
 
-    gold:
+      gold:
 
           schema: gold
 
