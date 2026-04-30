@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: employee
+    description: 'First Model'
+
+sources:
+  - name: employee
+    database: DBT_DB
+    schema: PUBLIC
+    table:
+      - name: EMPLOYEE_RAW
+
